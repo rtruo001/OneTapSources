@@ -1,0 +1,44 @@
+#!/usr/bin/env mkb
+files
+{
+	#Actual folders
+	(Source)
+
+	#Filters used by the Solution Explorer
+	[source]	
+    OneTap.cpp
+
+	#Filter sourceMenu
+	[sourceMenu]
+	MainMenu.cpp
+	MainMenu.h
+
+	#Filter sourceScene
+	[sourceScene]
+	scene.cpp
+	scene.h
+
+	#Filter sourceGame
+	[sourceGame]
+	game.cpp
+	game.h
+
+	#Filter sourceInput
+	[sourceInput]
+	input.cpp
+	input.h
+}
+
+subprojects
+{
+    iwutil
+	iw2d
+    iw2dscenegraph
+    iw2dscenegraphcore
+    #soundengine
+	iwtween
+}
+
+deployment
+{
+}
